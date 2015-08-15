@@ -54,9 +54,6 @@ since we added the activity name, we do not need the code any more and delete th
 - The output from run_analysis.R is a tidy data set, in an output file named "**TidyDataSet.txt**". 
 - The output file is *space-delimited*.
 The output file contains a total of 181 lines (1 header and 180 data lines). it contains 88 columns
-- 
-- 
-
 
 ## Resources
 - Markdown Cheatsheet, [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
