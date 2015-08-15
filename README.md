@@ -27,22 +27,22 @@ I refer these frames in the following steps
 Train data should come first when we do the merging.
 We got the following 3 data sets for further processing.
 
- - **df_subject_merge** for the Subjects
- - **df_y_merge** for the ActivityCode
- - **df_X_merge** for the measurements of the variables.
+ - **DataFrame_subject_merge** for the Subjects
+ - **DataFrame_y_merge** for the ActivityCode
+ - **DataFrame_X_merge** for the measurements of the variables.
 
 
 #### Step 3: Extract only the mean and standard deviation for each measurement
 -Using the names provided in the features file, find the measurement names for mean and standard deviation and use the grep command to get those measures.
-- df_X_merge_small contains the dataset with the required measurements
-- df_X_merge_final is then produced using cbind(). This is the final dataset, which includes the SubjectNo, ActivityCode, ActivityName, and the samller data set
+- DataFrame_X_merge_small contains the dataset with the required measurements
+- DataFrame_X_final is then produced using cbind(). This is the final dataset, which includes the SubjectNo, ActivityCode, ActivityName, and the samller data set
 
 #### Step 4: Use descriptive activity names to name the activities in the data set as per the instructions
-- df_X_merge_final is merged with the activity labels. 
+- DataFrame_X_final is merged with the activity labels. 
 since we added the activity name, we do not need the code any more and delete the column from data set.
 
 #### Step 5: Appropriately label the data set with descriptive variable names
-- The columns of df_X_merge_final are given more appropriate names, which are taken from the *features.txt* file.
+- The columns of DataFrame_X_final are given more appropriate names, which are taken from the *features.txt* file.
 -Adding custom names instead of the names from original data set
 
 
@@ -51,7 +51,7 @@ since we added the activity name, we do not need the code any more and delete th
 
 
 ### Description of the Output
-- The output from run_analysis.R is a tidy data set, in an output file named "**TidyDataSet.txt**". 
+- The output from Run_analysis.R is a tidy data set, in an output file named "**TidyDataSet.txt**". 
 - The output file is *space-delimited*.
 - The output file contains a total of 181 lines (1 header + 30 Subjects x 6 Activities each)
 
