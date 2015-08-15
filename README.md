@@ -2,7 +2,7 @@
 ## Course Project for Coursera "Getting and Cleaning Data" (Course Code: getdata-031)
 
 ### Assumptions
-1. Script file and data should be placed in the R working directory
+1. Script file and data should be placed in the data directory.
 
 2. Submission Location : https://github.com/DhiruPranav/Getdata-CleanData
 
