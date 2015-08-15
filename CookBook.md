@@ -1,4 +1,4 @@
-DATA DICTIONARY
+DATA DEFINITIONS
 ===============
 ### This is a list of variables in the tidy dataset.
 - I am listing all the measured variables given in the *features_info.txt* given by the instructor.
