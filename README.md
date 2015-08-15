@@ -51,9 +51,11 @@ since we added the activity name, we do not need the code any more and delete th
 
 
 ### Description of the Output
-- The output from Run_analysis.R is a tidy data set, in an output file named "**TidyDataSet.txt**". 
+- The output from run_analysis.R is a tidy data set, in an output file named "**TidyDataSet.txt**". 
 - The output file is *space-delimited*.
-- The output file contains a total of 181 lines (1 header + 30 Subjects x 6 Activities each)
+- The output file contains a total of 181 lines (1 header and 180 data lines). it contains 88 columns
+- 
+- 
 
 
 ## Resources
